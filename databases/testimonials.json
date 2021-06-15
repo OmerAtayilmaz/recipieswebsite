@@ -1,0 +1,32 @@
+[
+    {   "id":1,
+        "name":"Furkan",
+        "job":"Software Devleoper",
+        "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ex quam suscipit consectetur possimus."
+    },
+    {   "id":2,
+        "name":"Şenol",
+        "job":"Web Devleoper",
+        "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ex quam suscipit consectetur possimus."
+    },
+    {   "id":3,
+        "name":"Ceylan",
+        "job":"Full Stack Devleoper",
+        "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ex quam suscipit consectetur possimus."
+    },
+    {   "id":4,
+        "name":"Emirhan",
+        "job":"Mobile Devleoper",
+        "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ex quam suscipit consectetur possimus."
+    },
+    {   "id":5,
+        "name":"Deniz",
+        "job":"Android Devleoper",
+        "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ex quam suscipit consectetur possimus."
+    },
+    {   "id":6,
+        "name":"Jonas",
+        "job":"Native Devleoper",
+        "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ex quam suscipit consectetur possimus."
+    }
+]

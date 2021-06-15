@@ -1,0 +1,23 @@
+#Navbar
+-renk
+-root renkler
+-font yenile
+-join us ekle - resonsive ve sen yap ! -
+
+#ANASAYFA
+--Anasayfada sliderı bilgi verme için kullan
+--Mainde Klasik bir background ve devam et buttonu olsun
+--Menü kartlarını güncelle - Anasayfadaki
+--
+
+#RECIPIES
+--Kartları güncelle
+--Devamını Oku dediğinde aşağıda açılsın - üstekkiler sığmazsa scroll ile sığdır!
+--Yorumlar Kısmı ekle (5 örnek yorum yaz)
+--
+
+#Testimonials
+--Üsteki testimonialslar harcinde
+4 yıldız
+3 yıldız gibi seçenekler olsun ve o seçeneklere tıklandığında yorumlar gözüksün
+

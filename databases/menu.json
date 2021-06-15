@@ -1,0 +1,60 @@
+{
+  "food":[
+    {
+      "id":0,
+    "food_name":"İskender",
+    "food_type":"1",
+    "food_calory":"700kcal",
+    "food_description":"Bursa yöresinin meşhur kebap yemeklerinden biridir.",
+    "vitamins":["A","B","C"],
+    "price":25
+    },
+    {
+      "id":1,
+      "food_name":"Tatlı",
+      "food_type":"0",
+      "food_calory":"300kcal",
+      "food_description":"Tatlı, öğle yemeği ve akşam yemeğinden sonra yenilen yemek türüdür.",
+      "vitamins":["D","E","F"],
+      "price":30
+    },
+    {
+      "id":2,
+        "food_name":"Döner",
+        "food_type":"1",
+        "food_calory":"1200kcal",
+        "food_description":"Etin dik bir şekilde asıldıkları odun ateşi karşısında pişirildiği bir yemek.",
+        "vitamins":["G","H","J"],
+        "price":50
+    },
+    
+    {
+      "id":3,
+        "food_name":"FoodName",
+        "food_type":"1",
+        "food_calory":"1200kcal",
+        "food_description":"Etin dik bir şekilde asıldıkları odun ateşi karşısında pişirildiği bir yemek.",
+        "vitamins":["G","H","J"],
+        "price":50
+    },
+    {
+      "id":4,
+        "food_name":"Baklava",
+        "food_type":"1",
+        "food_calory":"1200kcal",
+        "food_description":"Etin dik bir şekilde asıldıkları odun ateşi karşısında pişirildiği bir yemek.",
+        "vitamins":["G","H","J"],
+        "price":30
+    },
+    {
+      "id":5,
+        "food_name":"Lahmacun",
+        "food_type":"1",
+        "food_calory":"1200kcal",
+        "food_description":"Etin dik bir şekilde asıldıkları odun ateşi karşısında pişirildiği bir yemek.",
+        "vitamins":["G","H","J"],
+        "price":30
+    }
+  ]
+ 
+}

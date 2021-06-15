@@ -1,0 +1,44 @@
+[
+    {
+        "id":1,
+        "name":"patates kızartması",
+        "malzemeler":["patates","yağ","tuz"],
+        "hazirlanis":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ex quam suscipit consectetur possimus.",
+        "saglikliMi":false
+    },
+    {
+        "id":2,
+        "name":"Yaprak Sarması",
+        "malzemeler":["Yaprak","Pirinç","Yağ","Tuz"],
+        "hazirlanis":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ex quam suscipit consectetur possimus.",
+        "saglikliMi":true
+    },
+    {
+        "id":3,
+        "name":"Mercimek Çorbası",
+        "malzemeler":["Mercimek","yağ","tuz"],
+        "hazirlanis":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ex quam suscipit consectetur possimus.",
+        "saglikliMi":true
+    },
+    {
+        "id":4,
+        "name":"patates kızartması",
+        "malzemeler":["patates","yağ","tuz"],
+        "hazirlanis":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ex quam suscipit consectetur possimus.",
+        "saglikliMi":false
+    },
+    {
+        "id":5,
+        "name":"patates kızartması",
+        "malzemeler":["patates","yağ","tuz"],
+        "hazirlanis":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ex quam suscipit consectetur possimus.",
+        "saglikliMi":true
+    },
+    {
+        "id":6,
+        "name":"patates kızartması",
+        "malzemeler":["patates","yağ","tuz"],
+        "hazirlanis":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ex quam suscipit consectetur possimus.",
+        "saglikliMi":false
+    }
+]

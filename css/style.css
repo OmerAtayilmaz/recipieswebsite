@@ -1,0 +1,91 @@
+
+
+
+
+/*Card özellikleri*/
+
+.col-md-4{
+    float:left;
+}
+.card{
+    background: linear-gradient(to right,#26e070,#00c750);
+    border:none;
+    height:420px;
+    margin:1rem;
+    
+}
+.card .foodName{
+  
+    color:#fff;
+    text-align: center;
+    font-size: medium;
+}
+.card .foodList{
+    list-style:none;
+    display: flex;
+    flex-direction: column;
+    border:1px solid #fff;
+    justify-content: center;
+    text-align: left;
+    color:#fff;
+    font-size:1rem;
+ 
+}
+.foodList li{
+    margin-top:1rem;
+}
+
+.foodList li:first-child,.foodList li:last-child {
+    background-color: #fff;
+    color:#333;
+    border-radius: 5px 0 0px 5px;
+    padding-left:1rem;
+  }
+.foodList li:last-child{
+    margin-bottom:10px;
+    overflow:auto;
+    height:120px;
+    padding:15px;
+}
+
+.card .orderContainer
+{
+    
+    display:flex;
+    flex-direction:row;
+    justify-content: right;
+
+}
+.card button,input{
+    margin:5px;
+    outline:none;
+    border:none;
+    background:#fff;
+}
+.card button:nth-child(1){
+    
+    border-radius: 12px;
+    padding:5px;
+    font-size:0.8rem;
+    color:#333;
+    outline:none;
+  
+}
+.card button:nth-child(2),.card button:nth-child(4){
+    width:30px;
+    height:30px;
+    border-radius: 30px;
+ 
+}
+.card input:nth-child(3){
+    font-size: 0.8rem;
+    padding-left:15px;
+}
+
+
+/*Slider*/
+.img-custom{
+    height:670px !important;
+    width:100% !important;
+    background-size: cover;
+}

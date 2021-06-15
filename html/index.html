@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Food World</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/nav.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md   fixed-top">
+  <button class="navbar-toggler bg-dark text-white" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon bg-dark text-white"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a href="index.html" class="nav-link active custom-nav-text">Anasayfa</a>
+      </li>
+      <li class="nav-item">
+        <a href="recipies.html" class="nav-link custom-nav-text">Recipies</a>
+      </li>
+      <li class="nav-item">
+        <a href="testimonials.html" class="nav-link custom-nav-text">Testimonials</a>
+      </li>
+    </ul>
+</div>
+
+<div class="mx-auto ">
+  <i class="fas fa-2x text-warning fa-hamburger"><a class=" text-food navbar-brand mx-auto px-2" href="index.html">FOOD WORLD</a></i> 
+</div>
+
+<div class="navbar-collapse collapsible">
+  <ul class="navbar-nav custom-nav-dropdown ml-auto">
+      <li class="nav-item dropdown  px-5">
+          <a class="nav-link dropdown-toggle " href="#" id="girismenu" data-toggle="dropdown">Join us!</a>
+          <div class="dropdown-menu ml-2 " >
+            <a class="dropdown-item cutsom-nav-dropdown-text" data-toggle="modal" data-target="#girisModel" href="#">Giriş Yap</a>
+            <a class="dropdown-item  cutsom-nav-dropdown-text " data-toggle="modal" data-target="#kayitModel" href="#">Kayıt Ol</a>
+          </div>
+      </li>
+  </ul>
+</div>
+</nav>
+<!--Giriş Modeli-->
+<div class="modal fade" id="girisModel">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h4 class="modal-title">Giriş Paneli</h4>
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <form class="was-validated">
+        <div class="form-group">
+          <label for="email">Email address:</label>
+          <input type="email" class="form-control" placeholder="Enter email" name="email" id="email" required>
+          <div class="valid-feedback">Uygun</div>
+          <div class="invalid-feedback">Lütfen gerekli yerleri doldurun!</div>
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control" placeholder="Enter password" name="pwd" id="pwd" required>
+          <div class="valid-feedback">Uygun</div>
+          <div class="invalid-feedback">Lütfen gerekli yerleri doldurun!</div>
+        </div>
+        <div class="form-group form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" required> Remember me
+          </label>
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-outline-primary" type="button">Giriş Yap</button>
+      <button class="btn btn-outline-danger" type="button" data-dismiss="modal">Kapat</button>
+    </div>
+  </div>
+</div>
+</div>
+<!--Kayıt Modeli-->
+<div class="modal fade" id="kayitModel">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Kayıt Ol</h4>
+        <button class="close" type="button" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form class="was-validated">
+          <div class="form-group">
+            <label for="email">Email address:</label>
+            <input type="email" class="form-control" placeholder="Enter email" name="email" id="email" required>
+            <div class="valid-feedback">Uygun</div>
+            <div class="invalid-feedback">Lütfen gerekli yerleri doldurun!</div>
+          </div>
+          <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" placeholder="Enter password" name="pwd" id="pwd" required>
+            <div class="valid-feedback">Uygun</div>
+            <div class="invalid-feedback">Lütfen gerekli yerleri doldurun!</div>
+          </div>
+          <div class="form-group form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" required> Remember me
+            </label>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-outline-success">Kayıt Ol</button>
+        <button class="btn btn-outline-danger" data-dismiss="modal">Kapat</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="food_carousel" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#food_carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#food_carousel" data-slide-to="1"></li>
+    <li data-target="#food_carousel" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="img-fluid img-custom" src="../img/food1.jpg">
+      <div class="carousel-caption">
+          <h3>Lorem ipsum dolor</h3>
+          <p>Some information about the food in picture</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="img-fluid img-custom" src="../img/food2.jpg">
+      <div class="carousel-caption">
+        <h3>Lorem ipsum dolor</h3>
+        <p>Some information about the food in picture</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="img-fluid img-custom" src="../img/food3.jpg">
+      <div class="carousel-caption">
+        <h3>Lorem ipsum dolor</h3>
+        <p>Some information about the food in picture</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#food_carousel" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#food_carousel" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<h1 class="text-center">Menu</h1>
+<div class="container-fluid">
+  <div class="row jsonDataBuraya">
+    <div class="col-md-4">
+      <div class="card">
+        <h5 class="foodName">${mov.food_name} | <b>$${mov.price}</b></h5>
+        <ul class="foodList">
+          <li>${food_type}</li>
+          <li>✨ Kcal:${mov.food_calory}</li>
+          <li>✨ Vitamins:${mov.vitamins}</li>
+          <br>
+          <li class="desc">🎉 Description: ${mov.food_description} Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus libero a eius delectus sapiente rerum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo consequatur hic delectus ducimus at nihil.</li>
+        </ul>
+        <div class="orderContainer">
+          <button type="button" class="buttonOrder order" id=${mov.id} value=${mov.price}> Ekle </button>
+          <button type="button" class="buttonOrder"> + </button>
+          <input class="orderInput" id="${mov.id}${mov.id}" type="text" maxlength="3"/>
+          <button  type="button" class="buttonOrder"> - </button> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--map-->
+<div style="clear:both"></div>
+<hr>
+<section>
+  <div class="container-fluid">
+    <div class="row">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d204617.76602341208!2d34.388819471277124!3d36.742908190727206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1527f4a4c0be6e9f%3A0x4dbef2b1f81e7d77!2sMersin%2C%20Akdeniz%2FMersin!5e0!3m2!1sen!2str!4v1621337183898!5m2!1sen!2str" 
+      width="100%" 
+      height="450" 
+      style="border:0;" 
+      allowfullscreen=""
+      loading="lazy"></iframe>
+    </div>
+  
+  </div>
+</section>
+<!--Social Media İcons-->
+<hr>
+<footer>
+  <div class="container-fluid">
+    <div class="row ">
+      <div class="col-md-4 text-center">
+        <h6 class="p-2"><b>Social Media</b></h6>
+        <a style="color:#333;" class="p-1" href="#"><i class="fab fa-2x fa-instagram"></i></a>
+        <a style="color:#333;" class="p-1" href="#"><i class="fab fa-2x fa-facebook"></i></a>
+        <a style="color:#333;" class="p-1" href="#"><i class="fab fa-2x fa-linkedin"></i></a>
+        <a style="color:#333;" class="p-1" href="#"><i class="fab fa-2x fa-youtube"></i></a>
+      </div>
+      <div class="col-md-4">
+        <h6><b>The Providers</b></h6>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Amet eum architecto officia vitae nostrum unde consectetur at est eaque. </p>
+      </div>
+      <div class="col-md-4 text-center">
+        <h6><b>Important Links</b></h6>
+        <hr>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-decoration-none" style="color:#333;"><i class="fas fa-home p-2"></i><small>Home</small></a></li>
+          <li><a href="#" class="text-decoration-none" style="color:#333;"><i class="fas fa-info-circle p-2"></i><small>About</small></a></li>
+          <li><a href="#" class="text-decoration-none" style="color:#333;"><i class="fas fa-users p-2"></i><small>Contact</small></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid bottom-footer pt-2">
+    <div class="row">
+      <div class="col-12 text-center text-custom">
+        <p><small><b>Copyrights &#169; 2021 - All rights reserved</b></small></p><br>
+        <p><small><b>Designed by Ömer Atayilmaz</b></small></p>
+      </div>
+    </div>
+  </div>
+  </div>
+</footer>
+
+
+</body>
+<script src="../js/main.js"></script>
+</html>

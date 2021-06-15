@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>References</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/nav.css">
+</head>
+<body>
+<!--Navigation bar-->
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbarim">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbarim">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a href="index.html" class="nav-link active custom-nav-text">Anasayfa</a>
+      </li>
+      <li class="nav-item">
+        <a href="recipies.html" class="nav-link custom-nav-text">Recipies</a>
+      </li>
+      <li class="nav-item">
+        <a href="testimonials.html" class="nav-link custom-nav-text">Testimonials</a>
+      </li>
+     
+    </ul>
+</div>
+
+<div class="mx-auto ">
+  <i class="fas fa-2x text-food fa-hamburger"><a class=" text-food navbar-brand mx-auto px-2" href="index.html">FOOD WORLD</a></i> 
+</div>
+
+<div class="navbar-collapse collapsible d-none">
+  <ul class="navbar-nav ml-auto">
+      <li class="nav-item dropdown px-5">
+          <a class="nav-link dropdown-toggle" href="#" id="girismenu" data-toggle="dropdown">Join us!</a>
+          <div class="dropdown-menu" >
+            <a class="dropdown-item" data-toggle="modal" data-target="#girisModel" href="#">Giriş Yap</a>
+            <a class="dropdown-item" data-toggle="modal" data-target="#kayitModel" href="#">Kayıt Ol</a>
+          </div>
+      </li>
+  </ul>
+</div>
+</nav>
+<!--Giriş Modeli-->
+<div class="modal fade" id="girisModel">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h4 class="modal-title">Giriş Paneli</h4>
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <form class="was-validated">
+        <div class="form-group">
+          <label for="email">Email address:</label>
+          <input type="email" class="form-control" placeholder="Enter email" name="email" id="email" required>
+          <div class="valid-feedback">Uygun</div>
+          <div class="invalid-feedback">Lütfen gerekli yerleri doldurun!</div>
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control" placeholder="Enter password" name="pwd" id="pwd" required>
+          <div class="valid-feedback">Uygun</div>
+          <div class="invalid-feedback">Lütfen gerekli yerleri doldurun!</div>
+        </div>
+        <div class="form-group form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" required> Remember me
+          </label>
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-outline-primary" type="button">Giriş Yap</button>
+      <button class="btn btn-outline-danger" type="button" data-dismiss="modal">Kapat</button>
+    </div>
+  </div>
+</div>
+</div>
+<!--Kayıt Modeli-->
+<div class="modal fade" id="kayitModel">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Kayıt Ol</h4>
+        <button class="close" type="button" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form class="was-validated">
+          <div class="form-group">
+            <label for="email">Email address:</label>
+            <input type="email" class="form-control" placeholder="Enter email" name="email" id="email" required>
+            <div class="valid-feedback">Uygun</div>
+            <div class="invalid-feedback">Lütfen gerekli yerleri doldurun!</div>
+          </div>
+          <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" placeholder="Enter password" name="pwd" id="pwd" required>
+            <div class="valid-feedback">Uygun</div>
+            <div class="invalid-feedback">Lütfen gerekli yerleri doldurun!</div>
+          </div>
+          <div class="form-group form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" required> Remember me
+            </label>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-outline-success">Kayıt Ol</button>
+        <button class="btn btn-outline-danger" data-dismiss="modal">Kapat</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
